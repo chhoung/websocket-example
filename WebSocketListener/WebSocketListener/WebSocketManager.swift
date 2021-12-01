@@ -10,7 +10,9 @@ import CoreLocation
 
 final class WebSocketManager: NSObject {
     private var webSocket: URLSessionWebSocketTask?
-    private let url = URL(string: "wss://demo.piesocket.com/v3/1?api_key=lEv3Vi3m9HNAAKZphkibUyPNtTMhStBx86JFZMRR&notify_self")
+    
+    //add websocket url here
+    private let url = URL(string: "wss://")
     private var session: URLSession?
     
     func initiateConnection() {
