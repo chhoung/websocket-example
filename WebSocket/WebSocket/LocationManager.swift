@@ -124,26 +124,6 @@ extension LocationManager: CLLocationManagerDelegate {
     }
 }
 
-////MARK: -
-//extension LocationManager {
-//    func shouldSkipUploadToServer(timestamp: Date) -> Bool {
-//        if serviceNotAvailable() {
-//            if let lastTimeStamp = self.lastTimeStamp, timestamp.timeIntervalSince(lastTimeStamp) < Constant.inActiveInterval {
-//                return true
-//            }
-//        } else if let lastTimeStamp = self.lastTimeStamp {
-//            if timestamp.timeIntervalSince(lastTimeStamp) < Constant.activeInterval {
-//                return true
-//            }
-//        }
-//        return false
-//    }
-//
-//    func serviceNotAvailable() -> Bool {
-//        return Defaults[.endHour] ?? 2100 < DateFormattingUtil.hourNumber() || !Defaults[.status] || !AuthService.shared.isLoggedIn()
-//    }
-//}
-
 
 // MARK: -
 private extension CLAuthorizationStatus {
