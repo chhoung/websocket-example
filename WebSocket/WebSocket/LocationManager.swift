@@ -1,8 +1,5 @@
 //
 //  LocationManager.swift
-//  WashMe
-//
-//  Created by Davuth on 10/16/20.
 //
 
 import Foundation
