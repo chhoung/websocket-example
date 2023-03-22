@@ -2,7 +2,6 @@
 //  WebSocketManager.swift
 //  WebSocket
 //
-//  Created by Coolbeans on 11/29/21.
 //
 
 import Foundation
